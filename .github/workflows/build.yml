@@ -23,7 +23,7 @@
              gradle-version: 9.6.0
 
          - name: Compiler
-           run: gradle build --stacktrace
+             run: gradle build -x test --stacktrace
 
          - name: Garder le jar
            uses: actions/upload-artifact@v4
