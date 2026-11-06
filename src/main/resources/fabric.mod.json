@@ -1,0 +1,20 @@
+{
+	"schemaVersion": 1,
+	"id": "jdrcraft",
+	"version": "${version}",
+	"name": "JDRCraft",
+	"description": "Transforme le monde de Minecraft en une campagne de jeu de rôle : personnage, dés, niveaux, camps, villageois vivants, rescapés et épreuve des Limbes.",
+	"authors": [],
+	"license": "All-Rights-Reserved",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["fr.jdrcraft.JdrCraft"],
+		"client": ["fr.jdrcraft.JdrCraftClient"]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
